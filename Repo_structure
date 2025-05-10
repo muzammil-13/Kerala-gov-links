@@ -1,3 +1,5 @@
+Repo Structure
+
 keralagovlinks/
 ├── public/
 │   └── icons, favicon, etc.
@@ -13,3 +15,100 @@ keralagovlinks/
 ├── LICENSE
 ├── package.json
 └── next.config.js / vite.config.js / firebase.json
+
+
+---
+
+CONTRIBUTING.md
+
+# Contributing to KeralaGovLinks
+
+We’re building a **safe, citizen-first gateway** to Kerala Government services—and we’d love your help!
+
+## Ways to Contribute
+
+### 1. Suggest Verified Links
+- Go to `src/data/verifiedLinks.json`
+- Add your entry following this format:
+```json
+{
+  "title": "eDistrict Portal",
+  "url": "https://edistrict.kerala.gov.in",
+  "category": "Citizen Services",
+  "source": "Govt of Kerala",
+  "language": "English",
+  "lastVerified": "2025-05-10"
+}
+
+Submit a pull request OR raise an issue with your link suggestion.
+
+
+2. Improve UI/UX
+
+Open src/components/ and submit improvements to layout, icons, or responsiveness.
+
+We use Tailwind CSS (or insert actual styling tech here).
+
+
+3. Translate to Malayalam
+
+Add ml.json under src/i18n/ (or relevant localization folder)
+
+Translate UI strings or guides
+
+
+4. Fix Bugs or Add Features
+
+Check open Issues
+
+Create a feature branch and submit a Pull Request (PR)
+
+
+5. Spread Awareness
+
+Share the idea on social media
+
+Help elderly or rural folks use the platform
+
+Suggest this to Akshaya Centers or community leaders
+
+
+Development Setup
+
+1. Clone the repo:
+
+
+
+git clone https://github.com/yourname/keralagovlinks.git
+
+2. Install dependencies:
+
+
+
+npm install
+
+3. Start dev server:
+
+
+
+npm run dev
+
+Code Style
+
+Follow ESLint + Prettier rules (configured in project)
+
+Use clean, readable commit messages
+
+Write small, focused pull requests
+
+
+License
+
+This project is MIT licensed. That means anyone can use, remix, or contribute—just be respectful.
+
+
+---
+
+Thank you for contributing to a safer digital Kerala!
+
+---
