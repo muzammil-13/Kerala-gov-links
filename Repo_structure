@@ -1,0 +1,15 @@
+keralagovlinks/
+├── public/
+│   └── icons, favicon, etc.
+├── src/
+│   ├── components/       # Reusable UI elements
+│   ├── pages/            # Next.js routing (or React views)
+│   ├── data/             # JSON of verified links (initially static)
+│   ├── utils/            # Helper functions (e.g., link checker)
+│   └── styles/           # CSS / Tailwind config
+├── .env.example          # API keys (if any)
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── package.json
+└── next.config.js / vite.config.js / firebase.json
